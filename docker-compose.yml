@@ -225,11 +225,3 @@ volumes:
     driver: local
   kibanadata:
     driver: local
-
-secrets:
-  OPENAI_API_KEY:
-    file: ./secrets/openai_api_key.txt
-  ELASTIC_CLOUD_ID:
-    file: ./secrets/elastic_cloud_id.txt
-  ELASTIC_API_KEY:
-    file: ./secrets/elastic_api_key.txt
